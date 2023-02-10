@@ -1,5 +1,5 @@
-# On Linux with GCC, how to implement: static-library -> shared-library -> executable
-On Linux, how to make the executable link a shared library and the shared library link a static library.
+# On Linux with GCC, how to implement: static-library -> shared-library -> executable-file
+On Linux, how to make the executable file link a shared library and the shared library link a static library.
 
 <br />
 
