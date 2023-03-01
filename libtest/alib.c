@@ -6,3 +6,4 @@ void AFunc(int a)
 {
     BFunc(a * 2);
 }
+
