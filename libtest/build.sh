@@ -22,3 +22,4 @@ rm dynamic_1.c.o dynamic_2.cpp.o
 # Here, "libalib.a" depends on "libblib.a"
 # You may also use: `gcc main.c -o test ${common_c_options} -L./ -lalib -lblib -ltest-shared -lstdc++`
 gcc main.c libalib.a libblib.a -o test ${common_c_options} -L./ -ltest-shared -lstdc++
+
