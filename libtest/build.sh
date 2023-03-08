@@ -7,7 +7,7 @@ gcc static_1.c -o static_1.c.o -fPIC ${common_c_options} -c
 gcc alib.c -o alib.c.o ${common_c_options} -c
 gcc blib.c -o blib.c.o ${common_c_options} -c
 # Generate the static library
-ar crs libtest-static.a static_2.S.o static_1.c.o
+ar -crs libtest-static.a static_2.S.o static_1.c.o
 ar -crv libalib.a alib.c.o
 ar -crv libblib.a blib.c.o
 rm static_1.c.o static_2.S.o alib.c.o blib.c.o
